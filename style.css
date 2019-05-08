@@ -1,0 +1,67 @@
+html {
+	background-color: #adebff;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-align: center;
+}
+
+h1 {
+   color: #4048b3;
+   font-size: 40px;
+   text-align: center;
+}
+
+.container {
+	max-width: 600px;
+    margin: 50px auto 50px auto;
+	background-color: white;
+	padding: 50px 50px 100px;
+	border-radius: 5px;
+}
+
+.cellphoneImage {
+	max-width: 430px;
+	height: auto;
+	border-radius: 20px;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	display: inline-block;
+}
+
+.button {
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 30px;
+	background-color: #4048b3;
+	color: white;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+@media (max-width: 767px) {
+	.cellphoneImage {
+		max-width: 250px;
+	}
+	.container {
+		padding:20px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	 }
+
+	 ul {
+		 margin-top: 0px;
+	 }
+
+	 li {
+		 display: block;
+		 margin-top: 20px;
+	 }
+}
